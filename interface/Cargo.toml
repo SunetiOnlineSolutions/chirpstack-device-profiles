@@ -1,7 +1,7 @@
 [package]
-  name = "lorawan-device-profiles-interface"
-  description = "Interface to create and edit LoRaWAN(TM) device-profiles"
-  repository = "https://github.com/chirpstack/lorawan-device-profiles"
+  name = "chirpstack-device-profiles-interface"
+  description = "Interface to create and edit ChirpStack device-profiles"
+  repository = "https://github.com/chirpstack/chirpstack-device-profiles"
   homepage = "https://www.chirpstack.io/"
   version = "4.0.0"
   authors = ["Orne Brocaar <info@brocaar.com>"]
@@ -28,7 +28,7 @@
   mime_guess = "2.0"
   axum = "0.8"
   anyhow = "1.0"
-  uuid = { version = "1.18", default-features = false, features = [
+  uuid = { version = "1.19", default-features = false, features = [
     "v4",
     "serde",
   ] }

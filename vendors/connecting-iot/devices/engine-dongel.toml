@@ -1,0 +1,8 @@
+[device]
+  name = "ENGINE-DONGEL"
+  description = "Engine Dongel for Barge"
+
+[[device.firmware]]
+  version = "0.1"
+  profiles = ["EU868-class-c.toml"]
+  codec = "engine-dongel.js"
